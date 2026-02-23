@@ -1,0 +1,44 @@
+{
+  "name": "stardew-valley-theme",
+  "version": "1.0.0",
+  "description": "🎮 星露谷物语风格像素主题皮肤 - 一款受《星露谷物语》启发的像素艺术 CSS 主题",
+  "main": "css/stardew-theme.css",
+  "style": "css/themes/*.css",
+  "keywords": [
+    "stardew-valley",
+    "pixel-art",
+    "theme",
+    "css",
+    "pixel-font"
+    "retro",
+    "game"
+    "farm"
+    "像素"
+    "游戏风格"
+  ],
+  "author": "andyhuo520",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andyhuo520/stardew-valley-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andyhuo520/stardew-valley-theme/issues"
+  },
+  "homepage": "https://github.com/andyhuo520/stardew-valley-theme#demo"
+  "files": [
+    "css/**/*",
+    "js/**/*",
+    "assets/**/*",
+    "demo/**/*",
+    "*.md"
+    "package.json"
+  ],
+  "ignore": [
+    "**/.*",
+    "**/*.zip",
+    "**/__MACOSX",
+    "*.log",
+    "node_modules"
+  ]
+}

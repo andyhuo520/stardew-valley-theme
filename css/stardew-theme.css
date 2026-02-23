@@ -1,0 +1,48 @@
+/**
+ * 🌾 星露谷物语主题皮肤
+ * Stardew Valley Theme - 主入口文件
+ *
+ * 一款受《星露谷物语》启发的像素风格 CSS 主题
+ * Inspired by Stardew Valley (ConcernedApe)
+ *
+ * GitHub: https://github.com/andyhuo520/stardew-valley-theme
+ * License: MIT
+ */
+
+/* 导入字体 */
+@import url('./fonts/ark-pixel.css');
+
+/* 导入四季主题 */
+@import url('./themes/stardew-spring.css');
+@import url('./themes/stardew-summer.css');
+@import url('./themes/stardew-autumn.css');
+@import url('./themes/stardew-winter.css');
+
+/* 导入通用样式 */
+@import url('./themes/stardew-common.css');
+
+/* 导入功能模块 */
+@import url('./themes/stardew-cursors.css');
+@import url('./themes/stardew-selector.css');
+@import url('./themes/stardew-realtime.css');
+
+/* 可选功能（取消注释启用） */
+/* @import url('./themes/stardew-decorations.css'); */
+/* @import url('./themes/stardew-weather.css'); */
+/* @import url('./themes/stardew-crop-progress.css'); */
+
+/*
+ * 快速使用：
+ *
+ * 1. 引入此 CSS 文件：
+ *    <link rel="stylesheet" href="css/stardew-theme.css">
+ *
+ * 2. 设置主题（选择一个）：
+ *    <html data-theme="stardew-spring">   <!-- 春季 -->
+ *    <html data-theme="stardew-summer">   <!-- 夏季 -->
+ *    <html data-theme="stardew-autumn">   <!-- 秋季 -->
+ *    <html data-theme="stardew-winter">   <!-- 冬季 -->
+ *
+ * 3. 可选：启用自动季节切换
+ *    <script src="js/stardew-realtime.js"></script>
+ */
