@@ -9,11 +9,11 @@
     "pixel-art",
     "theme",
     "css",
-    "pixel-font"
+    "pixel-font",
     "retro",
-    "game"
-    "farm"
-    "像素"
+    "game",
+    "farm",
+    "像素",
     "游戏风格"
   ],
   "author": "andyhuo520",
@@ -31,7 +31,7 @@
     "js/**/*",
     "assets/**/*",
     "demo/**/*",
-    "*.md"
+    "*.md",
     "package.json"
   ],
   "ignore": [
